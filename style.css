@@ -206,3 +206,13 @@ button {
     font-weight: 800;
     font-size: 20px;
 }
+
+.footer{
+    background: #1f2937;
+    padding: 20px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}

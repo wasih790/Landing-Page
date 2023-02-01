@@ -1,22 +1,50 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #1f2937;
+    padding: 10px 35px 35px;
 }
 
 .header{
     display: flex;
-    background: #1f2937;
-    color: white;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul{
     list-style: none;
     display: flex;
     gap: 15px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 a{
     text-decoration:none;
     color: white;
+}
+
+.hero-banner{
+    display: flex;
+}
+
+.place-holder{
+    display: flex;
+    color: white;
+    background: grey;
+    align-items: center;
 }

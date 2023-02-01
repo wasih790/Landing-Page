@@ -126,12 +126,15 @@ button {
 .img{
     display: flex;
     flex-flow: column wrap;
-    width: 200px;
+    width: 150px;
     gap: 5px;
     align-items: center;
 }
 
 .middle-text{
-    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: rgb(99, 101, 117);
 }
   

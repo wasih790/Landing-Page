@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -8,14 +12,15 @@ body{
     display: flex;
     flex-direction: column;
     background: #1f2937;
-    padding: 10px 35px 35px;
+    padding: 10px 150px 100px;
 }
 
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
+
 }
 
 .logo{
@@ -40,6 +45,7 @@ a{
 
 .hero-banner{
     display: flex;
+    justify-content: space-between;
 }
 
 .place-holder{
@@ -47,4 +53,26 @@ a{
     color: white;
     background: grey;
     align-items: center;
+    justify-content: center;
+    width: 500px;
+
+ 
+}
+
+.text-banner{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.title-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+.text{
+    font: 18px;
+    color: #e5e7eb;
 }

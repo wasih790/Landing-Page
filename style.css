@@ -138,3 +138,19 @@ button {
     color: rgb(99, 101, 117);
 }
   
+
+.middle-second-container{
+    border: 1px solid blue;
+}
+
+.quote-box{
+    border: 1px solid green;
+}
+
+.quote{
+    border: 1px solid red;
+}
+
+.person{
+    border: 1px solid black;
+}
